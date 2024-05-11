@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.min.css" />
+    <title>Stream</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_content">
+        <div class="header_content-left">
+          <a
+            href="https://store.steampowered.com/?snr=1_4_4__global-responsive-menu"
+          >
+            <img
+              src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/header_logo.png"
+              height="36"
+            />
+          </a>
+        </div>
+        <div class="header_content-right">
+          <li>Trang Chủ</li>
+          <li>Hỗ trợ</li>
+          <li>Về chúng tôi</li>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-search">
+        <div class="search-area">
+          <div id="store_search">
+            <input id="searchInput" type="text" autocomplete="off" />
+            <button id="searchBtn" onclick="handleClickSearch()">Search</button>
+            <form name="searchForm">
+              <div id="searchBox"></div>
+            </form>
+            <div class="category">
+              <ul id="categoryGroup">
+                <!-- <li>Hoạt Động</li>
+                <li>Bình thường</li>
+                <li>FBS</li>
+                <li>MMO</li>
+                <li>game nhập vai</li>
+                <li>RTS</li>
+                <li>Thế Thao</li> -->
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="showing_game" id="display">
+          <div id="game_wrapper"></div>
+        </div>
+      </div>
+      <div class="btnGroup">
+        <button onclick="prev()">prev</button>
+        <button onclick="next()">next</button>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

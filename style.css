@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #1b2838;
+}
+.header_content {
+  display: flex;
+  background: #171a21;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
+  padding: 1em 0.5em;
+  margin-bottom: 1em;
+  z-index: 20;
+  justify-content: space-between;
+}
+.header_content-right {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+}
+.header_content-right li {
+  padding-right: 30px;
+  color: aliceblue;
+}
+.main-search {
+  display: flex;
+}
+.showing_game {
+  display: flex;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.item div {
+  padding: 5px;
+}
+.item div p {
+  background-color: #316282;
+  font-size: 1rem;
+}
+.searchBox {
+  background-image: none;
+  background-color: #316282;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 0px rgb(255 255 255 / 20%);
+  color: #fff;
+  margin-bottom: 0px;
+  outline: none;
+  height: 27px;
+  padding: 0px 6px;
+  position: relative;
+}
+.searchBox input {
+  border: none;
+  background-color: transparent;
+  color: #eeeeee;
+  margin-top: 2px;
+  margin-left: 8px;
+  width: calc(100% - 25px - 8px);
+  outline: none;
+  line-height: 26px;
+}
+.searchBox input.default {
+  color: #ebeef0;
+  font-size: 15px;
+  margin-top: 1px;
+  text-shadow: 1px 1px 0px rgb(255 255 255 / 10%);
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: 300;
+}
+.category ul {
+  color: #66c0f4;
+  list-style-type: none;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 2px solid #316282;
+  cursor: pointer;
+}
+.category li {
+  padding-bottom: 1em;
+}
+.category li:hover {
+  filter: brightness(200%);
+  background-color: #1f4c6a;
+  border-radius: 4px;
+  padding-top: 0.5em;
+  text-align: center;
+}
+.btnGroup {
+  display: flex;
+  justify-content: center;
+}
